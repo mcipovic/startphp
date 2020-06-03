@@ -19,6 +19,10 @@
         <?= "Hello, " . $_GET['name'] ?>
     </h1>
 
+    <h1>
+        <?= $_GET['name1'] . " evo vidis da sam se snasao! ". "A sad razguli - ". $_GET['name2'] ?>
+    </h1>
+
 </body>
 </html>
 
