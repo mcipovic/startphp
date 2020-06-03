@@ -1,21 +1,25 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
 
+    <style>
+        h1 {
+            background: gray;
+            padding: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
 
-$greeting = 'Hello';
-$name = ' Marko Cipovic';
+<body>
 
+    <h1>
+        <?= "Hello, " . $_GET['name'] ?>
+    </h1>
 
-echo $greeting . ' ' . $name;
-echo "\n";
-
-$name2 = ' Darko';
-
-$msg2 = 'Evo vidis da znam ovo';
-
-echo $msg2 . ' ' . $name2;
-
-
-
-
+</body>
+</html>
 
 
