@@ -15,11 +15,26 @@
 
 <body>
 
-<h1>
-    <?= $greeting ?>
-</h1>
 
 
+    <ul>
+
+
+        <?php
+        foreach ($names as $name){
+
+            echo "<li>".$name."</li>";
+        }
+        ?>
+    </ul>
+
+    <ul>
+        <?php
+        foreach ($animals as $animal){
+            echo "<li>$animal</li>";
+        }
+        ?>
+    </ul>
 </body>
 </html>
 

@@ -1,6 +1,16 @@
 <?php
 
-$greeting = 'Hello world Marko';
 
+$names = [
+        'Marko',
+        'Boro',
+        'Janko'
+];
 
-require 'index.view.php';
+$animals = [
+        'Pasce',
+        'Macketina',
+        'Stric takodje'
+];
+
+require './index.view.php';
