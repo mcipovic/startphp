@@ -1,5 +1,6 @@
 <?php
 
-$greeting = 'Hello world';
+$greeting = 'Hello world Marko';
+
 
 require 'index.view.php';
