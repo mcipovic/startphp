@@ -13,4 +13,20 @@ $animals = [
         'Stric takodje'
 ];
 
-require './index.view.php';
+$person = [
+        'age' => 33,
+        'hair' => 'mrka',
+        'career'=> 'web programer'
+];
+
+$person['name'] = "Marko";
+
+
+$task = [
+        'title'=>'Kupovina',
+        'due_date'=>'22/01/20',
+        'assigned'=>'Marko',
+        'completed'=> True
+];
+
+require 'index.view.php';

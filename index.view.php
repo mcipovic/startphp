@@ -15,27 +15,30 @@
 
 <body>
 
+<ul>
+    <?php foreach ($person as $feature => $val) : ?>
+        <li><strong><?= $feature; ?></strong> <?= $val; ?> </li>
+    <?php endforeach; ?>
 
+</ul>
 
-    <ul>
+<ul>
+    <li>
+        <strong>Naslov zadatka:</strong> <?= $task['title']; ?>
+    </li>
 
+    <li>
+        <strong>Datum zavrsetka:</strong> <?= $task['due_date']; ?>
+    </li>
 
-        <?php
-        foreach ($names as $name){
+    <li>
+        <strong>Osoba:</strong> <?= $task['assigned']; ?>
+    </li>
 
-            echo "<li>".$name."</li>";
-        }
-        ?>
-    </ul>
+    <li>
+        <strong>Status:</strong> <?= $task['completed']; ?>
+    </li>
+</ul>
 
-    <ul>
-        <?php
-        foreach ($animals as $animal){
-            echo "<li>$animal</li>";
-        }
-        ?>
-    </ul>
 </body>
 </html>
-
-
